@@ -222,7 +222,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="N° Téléphone"
+                    android:text="Localisation"
                     android:layout_marginTop="12dp"
                     android:textColor="#888888"
                     android:textSize="12sp" />
@@ -239,7 +239,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="+33 7 00 00 00 00"
                         android:textColor="#000000"
                         android:textStyle="bold"
                         android:textSize="14sp" />

@@ -19,6 +19,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
 
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA3u57pt8227uFjlSH6CtqWL8iGNz3yopA"/>
+
         <!-- Page d'accueil principale -->
         <activity
             android:name=".MainActivity"
@@ -36,7 +41,6 @@
         <activity android:name=".Pagehome" android:exported="true" />
 
         <activity android:name=".PharmacyPage" android:exported="false" />
-        <activity android:name=".HistorySearch" android:exported="false" />
         <activity android:name=".AllPharmacia" android:exported="false" />
         <activity android:name=".Fvpharmacie" android:exported="false" />
         <activity android:name=".Monprofile" android:exported="false" />

@@ -10,15 +10,17 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="40dp">
+        android:padding="0dp">
 
+        <!-- Gradinet EN HAUT -->
         <View
-            android:id="@+id/headerBackground"
+            android:id="@+id/headerImage"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:background="#C9DBC8"
+            android:layout_height="250dp"
+            android:background="@drawable/header_gradient"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!-- Bouton retour -->
         <ImageButton
             android:id="@+id/btnBack"
             android:layout_width="40dp"
@@ -32,6 +34,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:tint="#000000" />
 
+        <!-- Titre pharmacie -->
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="0dp"
@@ -39,29 +42,16 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
             android:text="Pharmacie Nouvelle d'Epinay"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@id/tvAddress"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/tvDistance"
-            android:layout_marginBottom="4dp"/>
+            app:layout_constraintEnd_toStartOf="@+id/tvDistance" />
 
-        <TextView
-            android:id="@+id/tvAddress"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginBottom="32dp"
-            android:layout_marginEnd="60dp"
-            android:text="65 Av. de la Marne, 93800 Épinay-sur-Seine"
-            android:textColor="#4A4A4A"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="@id/headerBackground"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/fabFavorite"/>
-
+        <!-- Distance -->
         <TextView
             android:id="@+id/tvDistance"
             android:layout_width="wrap_content"
@@ -74,6 +64,22 @@
             app:layout_constraintBaseline_toBaselineOf="@+id/tvTitle"
             app:layout_constraintEnd_toEndOf="parent" />
 
+        <!-- Adresse -->
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="32dp"
+            android:text="65 Av. de la Marne, 93800 Épinay-sur-Seine"
+            android:textColor="#4A4A4A"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/headerImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fabFavorite" />
+
+        <!-- Bouton favori -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabFavorite"
             android:layout_width="wrap_content"
@@ -84,10 +90,11 @@
             app:borderWidth="0dp"
             app:elevation="6dp"
             app:tint="#D32F2F"
-            app:layout_constraintBottom_toBottomOf="@id/headerBackground"
+            app:layout_constraintBottom_toBottomOf="@id/headerImage"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/headerBackground" />
+            app:layout_constraintTop_toBottomOf="@id/headerImage" />
 
+        <!-- Titre "Détails" -->
         <TextView
             android:id="@+id/tvDetailsHeader"
             android:layout_width="wrap_content"
@@ -99,8 +106,9 @@
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/headerBackground" />
+            app:layout_constraintTop_toBottomOf="@id/headerImage" />
 
+        <!-- Carte des détails -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardDetails"
             android:layout_width="match_parent"
@@ -116,9 +124,10 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="400dp"
                 android:padding="20dp">
 
+                <!-- Pastille verte -->
                 <ImageView
                     android:layout_width="12dp"
                     android:layout_height="12dp"
@@ -126,16 +135,18 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
+                <!-- Icône téléphone -->
                 <ImageView
                     android:id="@+id/iconPhone"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:layout_marginTop="8dp"
                     android:src="@drawable/ic_phone"
-                    app:tint="#000000"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginTop="8dp"/>
+                    app:tint="#000000" />
 
+                <!-- Numéro -->
                 <TextView
                     android:id="@+id/tvPhone"
                     android:layout_width="0dp"
@@ -150,31 +161,9 @@
                     app:layout_constraintStart_toEndOf="@id/iconPhone"
                     app:layout_constraintTop_toTopOf="@id/iconPhone" />
 
-                <ImageView
-                    android:id="@+id/iconWeb"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_marginTop="24dp"
-                    android:src="@drawable/ic_globe"
-                    app:tint="#000000"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/iconPhone" />
 
-                <TextView
-                    android:id="@+id/tvWeb"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:text="https://www.conseilsante.org/web/67126"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    app:layout_constraintBottom_toBottomOf="@id/iconWeb"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/iconWeb"
-                    app:layout_constraintTop_toTopOf="@id/iconWeb" />
 
+                <!-- "See on map" -->
                 <TextView
                     android:id="@+id/tvSeeMap"
                     android:layout_width="wrap_content"
@@ -184,49 +173,43 @@
                     android:textColor="#000000"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/iconWeb" />
+                    app:layout_constraintTop_toBottomOf="@id/tvPhone" />
 
+                <!-- Carte Google Maps -->
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cardMap"
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="230dp"
                     android:layout_marginTop="16dp"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="0dp"
-                    app:layout_constraintTop_toBottomOf="@id/tvSeeMap"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent">
+                    app:layout_constraintTop_toBottomOf="@id/tvSeeMap">
 
-                    <FrameLayout
+                    <fragment
+                        android:id="@+id/mapFragment"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/map_placeholder" />
-
-                        <ImageView
-                            android:layout_width="32dp"
-                            android:layout_height="32dp"
-                            android:layout_gravity="bottom|center_horizontal"
-                            android:layout_marginBottom="-4dp"
-                            android:src="@drawable/ic_open_in_new"
-                            android:background="@color/black"
-                            android:padding="4dp"
-                            app:tint="@color/white" />
-                    </FrameLayout>
+                        android:layout_height="match_parent" />
+                    <!-- couche transparente cliquable -->
+                    <View
+                        android:id="@+id/mapClickLayer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
                 </androidx.cardview.widget.CardView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.card.MaterialCardView>
 
+        <!-- Logo Permacia en bas -->
         <ImageView
             android:layout_width="160dp"
             android:layout_height="60dp"
-            android:layout_marginTop="40dp"
-            android:src="@drawable/logo_permacia"
+            android:layout_marginTop="32dp"
             android:scaleType="fitCenter"
+            android:src="@drawable/logo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/cardDetails" />
