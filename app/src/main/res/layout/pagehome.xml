@@ -136,6 +136,7 @@
         </FrameLayout>
 
         <FrameLayout
+            android:id="@+id/cardNight"
             android:layout_width="178dp"
             android:layout_height="148dp"
             android:layout_marginLeft="200dp"
