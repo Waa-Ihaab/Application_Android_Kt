@@ -29,17 +29,6 @@
 
 > **Note**: To add screenshots, create a `screenshots/` directory in the repository root and add your app screenshot images there.
 
-## 🔧 Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **Android Studio** (Arctic Fox or later recommended)
-- **JDK 11** or higher
-- **Android SDK** with API level 28 (minimum) to 36 (compile)
-- **Kotlin Plugin** (usually bundled with Android Studio)
-- **Firebase Account** for authentication and database features
-- **Google Cloud Console Account** for Google Maps API
-
 ## 🚀 Installation
 
 ### 1. Clone the Repository
@@ -118,29 +107,6 @@ cd Application_Android_Kt
 3. **Update Profile**: Modify your personal information as needed
 4. **Sign Out**: Use the sign-out option when you want to log out
 
-## 🛠️ Technology Stack
-
-### Frontend
-- **Kotlin**: Primary programming language
-- **Android SDK**: Android framework
-- **Jetpack Compose**: Modern UI toolkit
-- **View Binding**: Type-safe view access
-- **Material Design 3**: UI components and theming
-
-### Backend & Services
-- **Firebase Authentication**: User authentication and management
-- **Firebase Realtime Database**: Real-time data synchronization
-- **Firebase Firestore**: Cloud database for pharmacy data
-- **Firebase Storage**: Image and file storage
-- **Google Play Services**: Location and Maps
-- **Google Sign-In**: OAuth authentication
-
-### Libraries
-- **Glide**: Image loading and caching
-- **Gson**: JSON serialization/deserialization
-- **Google Maps SDK**: Map integration
-- **Material Components**: Android Material Design library
-
 ## 📁 Project Structure
 
 ```
@@ -172,55 +138,6 @@ Application_Android_Kt/
 ├── settings.gradle.kts
 └── README.md
 ```
-
-## 🔨 Building the Project
-
-### Debug Build
-
-```bash
-./gradlew assembleDebug
-```
-
-The APK will be generated in `app/build/outputs/apk/debug/`
-
-### Release Build
-
-```bash
-./gradlew assembleRelease
-```
-
-The APK will be generated in `app/build/outputs/apk/release/`
-
-### Running on Device/Emulator
-
-```bash
-./gradlew installDebug
-```
-
-Or use Android Studio's **Run** button (Shift + F10)
-
-## 🧪 Testing
-
-### Run Unit Tests
-
-```bash
-./gradlew test
-```
-
-### Run Instrumented Tests
-
-```bash
-./gradlew connectedAndroidTest
-```
-
-## 🔐 Permissions
-
-The app requires the following permissions:
-
-- **INTERNET**: For Firebase and API communication
-- **ACCESS_FINE_LOCATION**: For precise location tracking
-- **ACCESS_COARSE_LOCATION**: For approximate location
-- **READ_EXTERNAL_STORAGE**: For reading profile images
 
 ## ⚙️ Configuration
 
