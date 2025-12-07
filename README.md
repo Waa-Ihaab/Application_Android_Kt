@@ -19,7 +19,15 @@
 
 ## 📸 Screenshots
 
-_Screenshots coming soon_
+| Main Screen | Login | Home | Pharmacy List |
+|-------------|-------|------|---------------|
+| ![Main Screen](screenshots/main_screen.png) | ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Pharmacy List](screenshots/pharmacy_list.png) |
+
+| Pharmacy Details | Favorites | Profile | Maps |
+|------------------|-----------|---------|------|
+| ![Pharmacy Details](screenshots/pharmacy_details.png) | ![Favorites](screenshots/favorites.png) | ![Profile](screenshots/profile.png) | ![Maps](screenshots/maps.png) |
+
+> **Note**: To add screenshots, create a `screenshots/` directory in the repository root and add your app screenshot images there.
 
 ## 🔧 Prerequisites
 
@@ -240,7 +248,7 @@ Contributions are welcome! If you'd like to contribute:
 If you have any questions about using the application or need assistance, feel free to reach out:
 
 - **GitHub**: [@Waa-Ihaab](https://github.com/Waa-Ihaab)
-- **Email**: [Create an issue](https://github.com/Waa-Ihaab/Application_Android_Kt/issues) for questions and support
+- **Email**: contact.kariihab@gmail.com
 - **Project Link**: [https://github.com/Waa-Ihaab/Application_Android_Kt](https://github.com/Waa-Ihaab/Application_Android_Kt)
 
 ### Support
