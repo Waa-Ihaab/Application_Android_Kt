@@ -21,13 +21,11 @@
 
 | Main Screen | Login | Home | Pharmacy List |
 |-------------|-------|------|---------------|
-| ![Main Screen](screenshots/main_screen.png) | ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Pharmacy List](screenshots/pharmacy_list.png) |
+| ![Main Screen](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_040211.png) | ![Login](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_040219.png) | ![Home](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_040052.png) | ![Pharmacy List](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_040144.png) |
 
-| Pharmacy Details | Favorites | Profile | Maps |
-|------------------|-----------|---------|------|
-| ![Pharmacy Details](screenshots/pharmacy_details.png) | ![Favorites](screenshots/favorites.png) | ![Profile](screenshots/profile.png) | ![Maps](screenshots/maps.png) |
-
-> **Note**: To add screenshots, create a `screenshots/` directory in the repository root and add your app screenshot images there.
+| Pharmacy Details | Favorites | Profile |
+|------------------|-----------|---------|
+| ![Pharmacy Details](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_040203.png) | ![Favorites](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_041437.png) | ![Profile](https://raw.githubusercontent.com/Waa-Ihaab/Application_Android_Kt/main/screens/Screenshot_20251204_040114.png) |
 
 ## 🚀 Installation
 
