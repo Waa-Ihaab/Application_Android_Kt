@@ -240,7 +240,7 @@ Contributions are welcome! If you'd like to contribute:
 If you have any questions about using the application or need assistance, feel free to reach out:
 
 - **GitHub**: [@Waa-Ihaab](https://github.com/Waa-Ihaab)
-- **Email**: [Create an issue](https://github.com/Waa-Ihaab/Application_Android_Kt/issues) for questions and support
+- **Email**: [Create an issue]([https://github.com/Waa-Ihaab/Application_Android_Kt/issues](https://github.com/Waa-Ihaab/Application_Android_Kt/issues/3#issue-3703674338)) for questions and support
 - **Project Link**: [https://github.com/Waa-Ihaab/Application_Android_Kt](https://github.com/Waa-Ihaab/Application_Android_Kt)
 
 ### Support
