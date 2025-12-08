@@ -19,7 +19,7 @@ Permacia is a 24/7 pharmacy companion Android application that helps users find 
 
 ## Screenshots
 
-Screenshots are available in the `/screens` directory.
+Screenshots are available in the `screens` directory.
 
 ## Usage
 
