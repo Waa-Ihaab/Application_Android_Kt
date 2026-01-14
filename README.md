@@ -1,6 +1,4 @@
-<p align="center"> <img src="Permacia.png" alt="Permacia Logo" width="420"/> </p> <p align="center"><b>Permacia</b> — Your 24/7 Pharmacy Companion</p>
-
-<p align="center"> <img src="Permacia. png" alt="Permacia Logo" width="420"/> </p> <p align="center"><b>Permacia</b> — Your 24/7 Pharmacy Companion</p>
+<p align="center"> <img src="Permacia.png" alt="Permacia Logo" width="420"/> </p> <p align="center"><b>Permacia</b> — Your 24/7 Pharmacy Companion</p
 
 Permacia is a 24/7 pharmacy companion Android application that helps users find nearby pharmacies quickly and easily. 
 
